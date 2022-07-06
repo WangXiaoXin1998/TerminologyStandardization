@@ -11,7 +11,7 @@ import time
 
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
 os.environ["CUDA_VISIBLE_DEVICES"] = str(hyper['gpu_id'])
-device = torch.device("cuda")
+device = torch.device("cpu")
 
 
 if hyper['bert'] == False:
