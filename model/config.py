@@ -7,7 +7,7 @@ hyper = {
     "learning_rate": 1e-4,
     "gpu_id": 0,
     "bert": False,
-    "bert_path": 'hfl/chinese-roberta-wwm-ext',
+    "bert_path": 'hfl/chinese-macbert-base',
     "train_path": 'data/pre_train.csv',
     "valid_path": 'data/pre_val.csv',
     "code_path": 'data/code.csv'
