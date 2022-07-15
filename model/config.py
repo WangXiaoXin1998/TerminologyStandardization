@@ -1,7 +1,7 @@
 hyper = {
     "max_len": 30,
     "batch_size": 1,
-    "epoch": 30,
+    "epoch": 50,
     "word_dim": 512,
     "lstm_hidden": 256,
     "learning_rate": 1e-4,
